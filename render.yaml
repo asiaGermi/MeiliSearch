@@ -1,0 +1,12 @@
+services:
+  - name: meilisearch
+    type: web
+    runtime: docker
+    plan: free
+    envVars:
+      - key: MEILI_ENV
+        value: "production"
+      - key: MEILI_NO_ANALYTICS
+        value: "true"
+      - key: MEILI_MASTER_KEY
+        value: "tua-chiave-segreta"

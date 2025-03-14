@@ -3,10 +3,11 @@ services:
     type: web
     runtime: docker
     plan: free
+    image: getmeili/meilisearch:v1.4
     envVars:
       - key: MEILI_ENV
         value: "production"
       - key: MEILI_NO_ANALYTICS
         value: "true"
       - key: MEILI_MASTER_KEY
-        value: "tua-chiave-segreta"
+        value: "a3b5c9d8f1e2g4h6i7j8k9l0m1n2o3"
